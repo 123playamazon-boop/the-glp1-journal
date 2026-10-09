@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The GLP-1 Journal — Make This Expensive Chapter Actually Count (Printable)</title>
+<meta name="description" content="Stop winging it on your GLP-1. One printable journal to track your dose, injection sites, protein, water and real progress — so you show up prepared and don't waste a single week.">
+
+<!-- =========================================================
+     CONFIG — edit only this block
+     ========================================================= -->
+<script>
+window.OFFER = {
+  brand: "The GLP-1 Journal",
+  stripeFront:     "https://buy.stripe.com/00w5kD2XB56B9Lx0W1fMA0R",   // Journal only ($12)
+  stripeFrontBump: "https://buy.stripe.com/eVqdR941FfLf4rdcEJfMA0S",   // Journal + Food & Recipe Bundle ($29)
+  downloadFront:   "download.html",
+  downloadBump:    "download-plus.html",
+  priceFront: "12", priceFrontAnchor: "54",
+  priceBump: "17",  priceBumpAnchor: "31",
+  metaPixelId: "964792956089333",
+  clarityId:   "REPLACE_CLARITY",
+  redtrackScript: "",
+};
+</script>
+
+<script>
+(function(){ if(!window.OFFER.metaPixelId || window.OFFER.metaPixelId.indexOf("REPLACE")===0) return;
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', window.OFFER.metaPixelId); fbq('track', 'PageView');
+})();
+</script>
+<script>
+(function(){ if(!window.OFFER.clarityId || window.OFFER.clarityId.indexOf("REPLACE")===0) return;
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script",window.OFFER.clarityId);
+})();
+</script>
+<script>
+(function(){ if(!window.OFFER.redtrackScript) return; var s=document.createElement('script'); s.async=true; s.src=window.OFFER.redtrackScript; document.head.appendChild(s); })();
+</script>
+
+<style>
+:root{
+  --ink:#2a332b; --muted:#6b766a; --line:#e3ebe0; --bg:#f6f8f5;
+  --sage:#6f8f6a; --sage-d:#44603f; --sage-xd:#2f4a2c; --gold:#c08457; --cream:#f6f4ec; --soft:#edf3ea;
+  --grad:linear-gradient(135deg,#6f8f6a,#44603f);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.55;font-size:17px}
+img{max-width:100%;display:block}
+.wrap{max-width:660px;margin:0 auto;padding:0 18px}
+.center{text-align:center}.muted{color:var(--muted)}
+.pill{display:inline-block;background:var(--soft);color:var(--sage-d);border-radius:999px;padding:6px 15px;font-size:13px;font-weight:800;letter-spacing:.3px}
+.btn{display:block;width:100%;background:var(--grad);color:#fff;border:none;border-radius:15px;padding:19px 20px;font-size:20px;font-weight:900;text-decoration:none;text-align:center;box-shadow:0 12px 26px rgba(68,96,63,.30);cursor:pointer;line-height:1.2}
+.btn small{display:block;font-weight:600;font-size:13px;opacity:.95;margin-top:5px}
+.btn:active{transform:translateY(1px)}
+h1{font-size:32px;line-height:1.13;font-weight:900;margin:14px 0 12px;letter-spacing:-.4px}
+h2{font-size:24px;line-height:1.22;font-weight:900;margin:36px 0 12px;letter-spacing:-.2px}
+p{margin:0 0 14px}
+.em{color:var(--sage-d);font-weight:800}
+.topbar{background:var(--sage-xd);color:#fff;text-align:center;font-weight:800;font-size:13.5px;padding:10px 12px;letter-spacing:.2px}
+.hero{background:radial-gradient(120% 90% at 50% 0%,#eef4ec 0%,#fff 70%);padding:24px 0 14px}
+.logo{font-weight:900;color:var(--sage-d);font-size:19px}
+.logo span{color:var(--gold)}
+.heroshot{border-radius:22px;overflow:hidden;box-shadow:0 26px 54px rgba(55,75,50,.22);margin:20px 0 10px;border:3px solid #fff;position:relative}
+.heroshot img{width:100%;display:block}
+.heroshot:after{content:"";position:absolute;inset:0;box-shadow:inset 0 -70px 60px -40px rgba(47,74,44,.35)}
+.thumbstrip{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin:0 0 6px}
+.thumbstrip img{width:100%;border:1px solid var(--line);border-radius:9px;box-shadow:0 6px 14px rgba(60,80,55,.10)}
+.photo{width:100%;border-radius:16px;border:3px solid #fff;box-shadow:0 18px 40px rgba(55,75,50,.18);margin:8px 0}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+@keyframes pulse{0%,100%{box-shadow:0 12px 26px rgba(68,96,63,.30)}50%{box-shadow:0 12px 34px rgba(68,96,63,.55)}}
+.btn.pulse{animation:pulse 2s ease-in-out infinite}
+.stickybar{position:fixed;left:0;right:0;bottom:0;z-index:50;background:rgba(255,255,255,.97);border-top:1px solid var(--line);box-shadow:0 -8px 24px rgba(55,75,50,.14);padding:9px 14px;display:none;align-items:center;gap:12px;backdrop-filter:blur(6px)}
+.stickybar .sp{flex:0 0 auto}.stickybar .sp b{display:block;color:var(--sage-d);font-size:19px;font-weight:900;line-height:1}
+.stickybar .sp s{color:var(--muted);font-size:12px}
+.stickybar a{flex:1;background:var(--grad);color:#fff;text-decoration:none;text-align:center;font-weight:900;border-radius:12px;padding:13px;font-size:16px}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0}
+.gallery figure{margin:0}
+.gallery img{width:100%;border:1px solid var(--line);border-radius:12px;box-shadow:0 10px 24px rgba(60,80,55,.10);background:#fff}
+.gallery figcaption{font-size:12.5px;color:var(--muted);text-align:center;margin-top:6px;font-weight:600}
+.mockgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.sheet{border:1px solid var(--line);border-radius:11px;overflow:hidden;background:#fff}
+.sheet .sh{background:var(--sage);color:#fff;font-size:10px;font-weight:800;padding:6px 8px;letter-spacing:.3px}
+.sheet .bd{padding:9px}
+.sheet .ln{height:7px;border-radius:3px;background:var(--soft);margin:5px 0}
+.sheet .ln.s{width:58%}
+.sheet .row{display:flex;gap:4px;margin:4px 0}
+.sheet .cell{flex:1;height:14px;border:1px solid var(--line);border-radius:3px}
+.sheet .dot{display:flex;gap:5px;margin:6px 2px}
+.sheet .dot i{width:11px;height:11px;border-radius:50%;border:1.4px solid var(--sage);display:block}
+.stars{color:var(--gold);font-size:16px;letter-spacing:2px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin:14px 0}
+.list{list-style:none;padding:0;margin:0}
+.list li{padding:10px 0 10px 30px;position:relative;border-bottom:1px solid var(--line)}
+.list li:last-child{border-bottom:none}
+.list li:before{content:"✓";position:absolute;left:0;top:10px;color:var(--gold);font-weight:900}
+.pain{background:var(--cream);border:1px solid #ece2d2;border-radius:16px;padding:16px 18px;margin:16px 0}
+.pain ul{padding:0;margin:0;list-style:none}
+.pain li{padding:8px 0 8px 28px;position:relative}
+.pain li:before{content:"✕";position:absolute;left:3px;color:#b4693f;font-weight:900;top:8px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0}
+.tracker{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 8px 20px rgba(60,80,55,.06)}
+.tracker .top{background:var(--soft);padding:9px 11px;border-bottom:1px solid var(--line)}
+.tracker .top .mini{height:5px;border-radius:3px;background:#dbe7d6;margin:3px 0}
+.tracker .top .mini.s{width:55%}
+.tracker .top .mrow{display:flex;gap:3px;margin:4px 0}
+.tracker .top .mcell{flex:1;height:9px;border:1px solid #cfdcc9;border-radius:2px;background:#fff}
+.tracker .lab{padding:10px 11px}
+.tracker .lab b{display:block;font-size:14px;color:var(--sage-d)}
+.tracker .lab small{color:var(--muted);font-size:12px}
+.value{background:#fff;border:2px solid var(--line);border-radius:18px;padding:6px 18px;margin:16px 0}
+.value .vi{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 0;border-bottom:1px dashed var(--line)}
+.value .vi:last-child{border-bottom:none}
+.value .vi .n{font-weight:700;font-size:15px}
+.value .vi .n small{display:block;color:var(--muted);font-weight:500;font-size:12.5px}
+.value .vi .p{color:var(--sage-d);font-weight:800;white-space:nowrap}
+.value .tot{display:flex;justify-content:space-between;align-items:center;padding:14px 0 6px;font-weight:900;font-size:17px}
+.value .tot .was{color:var(--muted);text-decoration:line-through}
+.offer{background:linear-gradient(180deg,#fff,#f6faf4);border:2px solid var(--sage);border-radius:22px;padding:22px;margin:20px 0;box-shadow:0 20px 46px rgba(68,96,63,.16)}
+.price{font-size:50px;font-weight:900;color:var(--sage-d);line-height:1}
+.price .was{font-size:21px;color:var(--muted);text-decoration:line-through;font-weight:700;margin-right:8px}
+.bump{display:flex;gap:12px;align-items:flex-start;background:#fffdf7;border:2px dashed var(--gold);border-radius:14px;padding:15px;margin:18px 0;cursor:pointer}
+.bump input{margin-top:3px;transform:scale(1.5);accent-color:#c08457}
+.bump .t{font-weight:800;color:#9a5f2e}
+.guar{background:var(--soft);border:1px solid var(--line);border-radius:18px;padding:18px;margin:18px 0;text-align:center}
+.guar .seal{display:inline-block;background:#fff;border:2px solid var(--sage);color:var(--sage-d);border-radius:999px;font-weight:900;font-size:13px;padding:6px 16px;margin-bottom:8px}
+.faq .q{font-weight:800;margin:16px 0 4px;color:var(--ink)}
+.discl{background:var(--cream);border:1px solid #ece2d2;border-radius:14px;padding:14px 16px;font-size:13.5px;color:#6b5a3a;margin:18px 0}
+.foot{color:var(--muted);font-size:12px;text-align:center;padding:28px 10px}
+.trust{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;font-size:12.5px;color:var(--muted);margin:12px 0}
+.trust b{color:var(--sage-d)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0}
+.mini-card{border:1px solid var(--line);border-radius:14px;padding:14px}
+.mini-card h4{margin:0 0 6px;font-size:15px;color:var(--sage-d)}
+.mini-card p{margin:0;font-size:13.5px;color:var(--muted)}
+@media(max-width:760px){body{padding-bottom:76px}}
+@media(max-width:420px){h1{font-size:27px}.price{font-size:42px}.two{grid-template-columns:1fr}.thumbstrip{gap:6px}}
+</style>
+</head>
+<body>
+
+<div class="topbar">★ FOUNDER'S LAUNCH — 60% OFF today · price goes up after launch</div>
+
+<div class="hero">
+  <div class="wrap center">
+    <div class="logo">The GLP-1 <span>Journal</span></div>
+    <div class="muted" style="font-weight:800;color:var(--sage-d);font-size:13px;letter-spacing:.3px;margin-top:2px">YOUR 90-DAY STAY-ON-TRACK SYSTEM</div>
+    <span class="pill" style="margin-top:12px">For people already on a prescribed GLP-1</span>
+    <h1>You're paying a lot for this shot.<br>Don't waste a single week of it.</h1>
+    <p class="muted" style="font-size:18px">One simple printable system for your <b>first 90 days and beyond</b> — it keeps your <b>dose, injection sites, protein, water and real progress</b> in one place, so you stay consistent, protect your results, and walk into every appointment prepared instead of guessing.</p>
+
+    <div class="heroshot reveal">
+      <img src="hero-lifestyle.webp" alt="Woman filling in her GLP-1 Journal at the kitchen table">
+    </div>
+    <div class="thumbstrip">
+      <img src="Daily-Nutrition.webp" alt="Daily Nutrition page" loading="lazy">
+      <img src="Weekly-Log.webp" alt="Weekly Log page" loading="lazy">
+      <img src="Weight-Progress.webp" alt="Weight Progress page" loading="lazy">
+    </div>
+    <p class="muted" style="font-size:13px;margin-top:8px">Instant download · Print at home · Fill in by hand · Yours for life</p>
+
+    <div style="margin:18px 0 8px"><a class="btn" href="#offer" data-cta-scroll>Get the Journal — just $<span data-price-front>12</span> today<small>Instant download · print it as many times as you want</small></a></div>
+    <div class="stars">★★★★★</div>
+    <p class="muted" style="font-size:13px">Built for the semaglutide &amp; tirzepatide journey</p>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <!-- PAIN -->
+  <img class="photo reveal" src="pain-desk.webp" alt="A chaotic desk of sticky notes and scribbled lists" loading="lazy">
+  <div class="pain reveal">
+    <p style="font-weight:800;margin-bottom:8px;font-size:18px">If you're on a GLP-1, you already know this feeling:</p>
+    <ul>
+      <li>Your appetite dropped — and now you're <b>honestly not sure you're eating enough protein</b> to protect your muscle.</li>
+      <li>You <b>can't remember which injection site</b> you used last time.</li>
+      <li>Your dose, side effects and questions live on <b>sticky notes, your phone, and your memory</b> — never in one place.</li>
+      <li>You get to your appointment and <b>blank on what you meant to ask</b>.</li>
+      <li>The scale stalls for a week and you spiral, feeling like <b>nothing's working</b> — even when it is.</li>
+    </ul>
+    <p style="margin:10px 0 0;font-weight:700">This medication is doing its part. The journal makes sure <span class="em">you</span> do yours.</p>
+  </div>
+
+  <h2>One journal. The whole journey in one place.</h2>
+  <p>No app to download. No subscription. No login to forget. The GLP-1 Journal is a clean, printable system built for exactly this chapter: print the pages you need, keep them in a binder or on the fridge, and fill them in as you go. Consistency is what turns an expensive prescription into real, tracked progress — and this is the simplest way to stay consistent.</p>
+  <img class="photo reveal" src="fridge.webp" alt="Checking off a printed tracker on the fridge" loading="lazy">
+
+  <!-- INSIDE / what's inside visual grid -->
+  <h2>Look inside the Journal</h2>
+  <p class="muted" style="margin-top:-4px">9 done-for-you tracking pages — print any of them, as often as you like:</p>
+  <div class="grid">
+    <div class="tracker"><div class="top"><div class="mrow"><div class="mcell"></div><div class="mcell"></div><div class="mcell"></div></div><div class="mrow"><div class="mcell"></div><div class="mcell"></div><div class="mcell"></div></div></div><div class="lab"><b>Weekly Log</b><small>Dose, site, appetite, protein &amp; water</small></div></div>
+    <div class="tracker"><div class="top"><div class="mini"></div><div class="mini"></div><div class="mini s"></div><div class="mini"></div></div><div class="lab"><b>Daily Nutrition &amp; Hydration</b><small>Hit your protein goal &amp; water</small></div></div>
+    <div class="tracker"><div class="top"><div class="mini"></div><div class="mini s"></div><div class="mini"></div><div class="mini s"></div></div><div class="lab"><b>Weight Progress — 12 Weeks</b><small>Track the trend, not one bad day</small></div></div>
+    <div class="tracker"><div class="top"><div class="mrow"><div class="mcell"></div><div class="mcell"></div></div><div class="mrow"><div class="mcell"></div><div class="mcell"></div></div></div><div class="lab"><b>Body Measurements</b><small>The scale is only half the story</small></div></div>
+    <div class="tracker"><div class="top"><div class="mrow"><div class="mcell"></div><div class="mcell"></div><div class="mcell"></div><div class="mcell"></div></div><div class="mrow"><div class="mcell"></div><div class="mcell"></div><div class="mcell"></div><div class="mcell"></div></div></div><div class="lab"><b>Monthly Symptom Tracker</b><small>Spot patterns for your provider</small></div></div>
+    <div class="tracker"><div class="top"><div class="dot" style="margin:2px"><i></i><i></i><i></i></div><div class="mini s"></div><div class="mini"></div></div><div class="lab"><b>Injection Site Rotation</b><small>Never guess where you injected last</small></div></div>
+    <div class="tracker"><div class="top"><div class="mini"></div><div class="mini"></div><div class="mini s"></div><div class="mini"></div></div><div class="lab"><b>Provider Visit Notes</b><small>Walk in prepared, leave with answers</small></div></div>
+    <div class="tracker"><div class="top"><div class="mini s"></div><div class="mini"></div><div class="mini s"></div></div><div class="lab"><b>Non-Scale Victories &amp; Goals</b><small>Celebrate the wins the scale hides</small></div></div>
+  </div>
+  <p class="center muted" style="font-size:13px">+ 2 free bonuses: the <b>5-Minute Setup Guide</b> and the <b>GLP-1 Quick-Start Cheat Sheet</b>.</p>
+
+  <h2>Real pages from the Journal</h2>
+  <p class="muted" style="margin-top:-4px">Exactly what you'll print and fill in — no fluff, no filler:</p>
+  <img class="photo reveal" src="flatlay.webp" alt="The printed journal and tracker pages laid out" loading="lazy">
+  <div class="gallery reveal">
+    <figure><img src="Daily-Nutrition.webp" alt="Daily Nutrition & Hydration page" loading="lazy"><figcaption>Daily Nutrition &amp; Hydration</figcaption></figure>
+    <figure><img src="Symptom.webp" alt="Monthly Symptom Tracker page" loading="lazy"><figcaption>Monthly Symptom Tracker</figcaption></figure>
+    <figure><img src="Injection.webp" alt="Injection Site Rotation page" loading="lazy"><figcaption>Injection Site Rotation</figcaption></figure>
+    <figure><img src="Provider.webp" alt="Provider Visit Notes page" loading="lazy"><figcaption>Provider Visit Notes</figcaption></figure>
+  </div>
+  <p class="center muted" style="font-size:12.5px">Every page is designed to print clean on standard US Letter paper.</p>
+
+  <div class="trust">
+    <span><b>✓</b> Instant download</span>
+    <span><b>✓</b> Print forever</span>
+    <span><b>✓</b> US Letter, ready to print</span>
+    <span><b>✓</b> No app or login</span>
+  </div>
+
+  <!-- VALUE STACK (Hormozi) -->
+  <h2>Here's everything you get</h2>
+  <div class="value">
+    <div class="vi"><span class="n">Weekly Log + Daily Nutrition &amp; Hydration system<small>Your day-to-day consistency engine</small></span><span class="p">$12</span></div>
+    <div class="vi"><span class="n">12-Week Weight Progress + Body Measurements<small>See the real trend, not one weigh-in</small></span><span class="p">$9</span></div>
+    <div class="vi"><span class="n">Monthly Symptom Tracker + Injection Site Rotation<small>Bring data to your provider, protect your skin</small></span><span class="p">$9</span></div>
+    <div class="vi"><span class="n">Provider Visit Notes + Non-Scale Victories + Goals<small>Walk in prepared, stay motivated</small></span><span class="p">$7</span></div>
+    <div class="vi"><span class="n">🎁 BONUS: 5-Minute Setup Guide<small>Get your whole journal running today</small></span><span class="p">$9</span></div>
+    <div class="vi"><span class="n">🎁 BONUS: GLP-1 Quick-Start Cheat Sheet<small>One page: your weekly rhythm + appointment checklist</small></span><span class="p">$8</span></div>
+    <div class="tot"><span>If bought separately</span><span class="was">$<span data-price-front-anchor>54</span></span></div>
+  </div>
+  <p class="center muted" style="font-size:14px;margin-top:-4px">Today, during the founder's launch, the whole Journal is just <b class="em">$<span data-price-front>12</span></b>.</p>
+
+  <!-- OFFER -->
+  <div class="offer" id="offer">
+    <div class="center">
+      <span class="pill">FOUNDER'S LAUNCH — 60% OFF</span>
+      <h2 style="margin:12px 0 6px">Get The GLP-1 Journal today</h2>
+      <div class="price"><span class="was">$<span data-price-front-anchor>54</span></span>$<span data-price-front>12</span></div>
+      <p class="muted" style="font-size:14px;margin-top:6px">Includes both free bonuses · one-time payment · lifetime access</p>
+    </div>
+
+    <img class="photo" src="meal-prep.webp" alt="Preparing a high-protein meal with the food list" loading="lazy" style="margin:12px 0 8px">
+    <div class="gallery" style="margin:8px 0 6px">
+      <figure><img src="FoodList.webp" alt="High-Protein Food List page" loading="lazy"><figcaption>High-Protein Food List</figcaption></figure>
+      <figure><img src="Recipe.webp" alt="High-protein recipe page" loading="lazy"><figcaption>1 of 15 recipes</figcaption></figure>
+    </div>
+
+    <label class="bump" for="bump">
+      <input type="checkbox" id="bump">
+      <span>
+        <span class="t">YES — add the Food &amp; Recipe Bundle for just $<span data-price-bump>17</span> <span class="muted" style="text-decoration:line-through;font-weight:600">$<span data-price-bump-anchor>31</span></span></span><br>
+        <span class="muted" style="font-size:14.5px">The hardest part of a GLP-1 is eating <i>enough</i> — especially protein. Add the <b>High-Protein Food Lists</b>, the <b>GLP-1-Friendly &amp; Trigger-Food guides</b>, a <b>Protein Cheat Sheet</b>, <b>printable Grocery List</b>, the <b>Balanced-Plate guide</b>, and <b>15 high-protein recipes</b> (breakfasts, lunches, dinners, snacks &amp; smoothies). Never stare into the fridge wondering what to eat again.</span>
+      </span>
+    </label>
+
+    <a class="btn pulse" data-cta href="#">Get instant access — $<span data-total>12</span><small>Secure checkout · your files appear right after payment</small></a>
+    <p class="center muted" style="font-size:12.5px;margin-top:10px">🔒 Secure payment · Instant digital delivery · Print at home</p>
+  </div>
+
+  <!-- GUARANTEE -->
+  <img class="photo reveal" src="prepared.webp" alt="A woman walking into her appointment prepared" loading="lazy">
+  <div class="guar reveal">
+    <span class="seal">✔ "WALK IN PREPARED" GUARANTEE</span>
+    <div style="font-weight:900;color:var(--sage-d);font-size:18px">Show up to your next appointment more prepared — or it's free.</div>
+    <p style="margin:8px 0 0">Use the Journal for 30 days. If you don't walk into your next appointment <b>more organized and more prepared than ever before</b>, reply to your receipt for a <b>full refund — and keep every file, including the bonuses</b>. The risk is 100% on us. The only way to lose is to keep winging it.</p>
+  </div>
+
+  <!-- WHO FOR -->
+  <h2>Who this is for</h2>
+  <div class="two">
+    <div class="mini-card"><h4>✓ This is for you if…</h4><p>You're already prescribed and taking a GLP-1, and you want to stay consistent, protect your protein &amp; muscle, and show up to appointments prepared — without keeping it all in your head.</p></div>
+    <div class="mini-card"><h4>✕ This isn't…</h4><p>…a medication, a diet program, or medical advice. It makes no weight-loss promises and isn't affiliated with any brand. It's a tracking tool you fill in — your provider stays in charge.</p></div>
+  </div>
+
+  <div class="discl">
+    <b>Please read:</b> The GLP-1 Journal is a personal organization and tracking tool. It is <b>not medical or nutrition advice</b>, makes no weight-loss promises, and is <b>not affiliated with any medication, brand, or manufacturer</b>. It does not diagnose or treat anything. Always follow your own healthcare provider's instructions for your medication, dosing, and nutrition.
+  </div>
+
+  <!-- FAQ -->
+  <h2>Questions, answered</h2>
+  <div class="faq">
+    <div class="q">Is this medication or a weight-loss program?</div>
+    <p>No. It's a printable journal — pages you fill in by hand. It gives no medical advice, doesn't replace your provider, and promises no results. It simply keeps you organized and consistent.</p>
+    <div class="q">I'm on semaglutide / tirzepatide — will it work for me?</div>
+    <p>Yes. The pages work for any prescribed GLP-1 routine. You log your own medication, dose and injection sites exactly as your provider directs.</p>
+    <div class="q">Why not just use a notes app or a free printable?</div>
+    <p>You could — but scattered notes are exactly the problem. This is one complete, consistent system designed for this medication: every page you actually need, already built, ready to print and reuse for your whole journey.</p>
+    <div class="q">How do I get it?</div>
+    <p>Instant digital download. Right after payment you land on a page with every PDF to download and print at home — as many times as you like, forever.</p>
+    <div class="q">What if I don't like it?</div>
+    <p>Reply to your receipt within 30 days for a full refund and keep the files. No hassle, no risk.</p>
+  </div>
+
+  <div class="center" style="margin:24px 0">
+    <a class="btn" href="#offer" data-cta-scroll style="max-width:440px;margin:0 auto">Yes — I want The GLP-1 Journal<small>Founder's price $<span data-price-front>12</span> · instant download</small></a>
+    <p class="muted" style="font-size:12.5px;margin-top:10px">Founder's pricing won't last — the price goes up after launch.</p>
+  </div>
+
+  <div class="foot">
+    <b>The GLP-1 Journal</b> · A printable personal tracker — not medical or nutrition advice.<br>
+    Not affiliated with any medication, brand, or manufacturer. Always follow your healthcare provider.<br>
+    Not happy in your first 30 days? Reply to your receipt for a full refund and keep every file.
+  </div>
+
+</div>
+
+<div class="stickybar" id="stickybar">
+  <span class="sp"><b>$<span data-price-front>12</span></b><s>Founder's price</s></span>
+  <a href="#offer" data-cta-scroll>Get the Journal →</a>
+</div>
+
+<script>
+(function(){
+  // scroll reveal
+  try{
+    var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}})},{threshold:.12});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  }catch(e){ document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');}); }
+  // sticky mobile bar appears after hero
+  var bar=document.getElementById('stickybar');
+  function sb(){ if(!bar) return; var y=window.pageYOffset||document.documentElement.scrollTop; bar.style.display = (window.innerWidth<=760 && y>520) ? 'flex':'none'; }
+  window.addEventListener('scroll',sb,{passive:true}); window.addEventListener('resize',sb); sb();
+})();
+(function(){
+  var O = window.OFFER;
+  document.querySelectorAll('[data-brand]').forEach(function(e){ e.textContent = O.brand; });
+  document.querySelectorAll('[data-price-front]').forEach(function(e){ e.textContent = O.priceFront; });
+  document.querySelectorAll('[data-price-front-anchor]').forEach(function(e){ e.textContent = O.priceFrontAnchor; });
+  document.querySelectorAll('[data-price-bump]').forEach(function(e){ e.textContent = O.priceBump; });
+  document.querySelectorAll('[data-price-bump-anchor]').forEach(function(e){ e.textContent = O.priceBumpAnchor; });
+
+  var bump = document.getElementById('bump');
+  function total(){ return bump && bump.checked ? (parseInt(O.priceFront)+parseInt(O.priceBump)) : parseInt(O.priceFront); }
+  function target(){ return bump && bump.checked ? O.stripeFrontBump : O.stripeFront; }
+
+  function clickId(){
+    try{
+      var u=new URL(location.href); var q=u.searchParams.get('rtkcid')||u.searchParams.get('clickid')||u.searchParams.get('cid');
+      if(q) return q;
+      var m=document.cookie.match(/(?:^|;\s*)rtkclickid-store=([^;]+)/); if(m&&m[1]) return decodeURIComponent(m[1]);
+    }catch(e){} return "";
+  }
+  function withTracking(url){
+    if(!url || url.indexOf("REPLACE")>-1 || url.charAt(0)==="#") return url;
+    try{
+      var u=new URL(url); var cid=clickId();
+      if(cid) u.searchParams.set('client_reference_id', cid);
+      var here=new URL(location.href);
+      ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','fbclid'].forEach(function(k){
+        var v=here.searchParams.get(k); if(v) u.searchParams.set(k,v);
+      });
+      return u.toString();
+    }catch(e){ return url; }
+  }
+
+  function refresh(){
+    document.querySelectorAll('[data-total]').forEach(function(e){ e.textContent = total(); });
+    var main=document.querySelector('.offer a[data-cta]');
+    if(main) main.setAttribute('href', withTracking(target()));
+  }
+  if(bump) bump.addEventListener('change', refresh);
+  refresh();
+
+  document.querySelectorAll('[data-cta-scroll]').forEach(function(a){
+    a.addEventListener('click', function(e){ e.preventDefault(); var t=document.getElementById('offer'); if(t) t.scrollIntoView({behavior:'smooth'}); });
+  });
+
+  document.querySelectorAll('a[data-cta]').forEach(function(a){
+    a.addEventListener('click', function(){
+      var href=a.getAttribute('href')||"";
+      if(href && href.charAt(0)!=="#"){
+        try{ if(window.fbq) fbq('track','InitiateCheckout',{value: total(), currency:'USD'}); }catch(e){}
+        try{ if(window.clarity) window.clarity('event','checkout_click'); }catch(e){}
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>
